@@ -1,0 +1,123 @@
+#NWM
+#Nikolay 1
+country_event = {
+	#Nikolay 1
+	id = 10000
+	title = "EVTNAME10000"
+	desc = "EVTDESC10000"
+	fire_only_once = yes
+	trigger = {
+		tag = RUS
+		year = 1825
+		month = 4
+	}
+ 
+	mean_time_to_happen =  {
+		days = 30
+	}
+
+
+	option = {
+		name = "EVTOPTA10000"
+		tech_school = "rus_nikolay_the_first_school"
+	}
+}
+country_event = {
+	#Nikolay 1 Better Education
+	id = 10001
+	title = "EVTNAME10001"
+	desc = "EVTDESC10001"
+	fire_only_once = yes
+	trigger = {
+		tag = RUS
+		year = 36
+		month = 1
+	}
+ 
+	mean_time_to_happen =  {
+		months = 1
+	}
+
+
+	option = {
+		name = "EVTOPTA10001"
+		prestige = 100
+		research_points = 100000
+		any_pop = {
+			literacy = 0.1
+		}
+		change_variable = { 
+			which = education_efficiency
+			education_efficiency = 0.8	
+		}
+	}
+}
+#Aleksandr 2
+country_event = {
+	#Aleksandr 2
+	id = 10100
+	title = "EVTNAME10100"
+	desc = "EVTDESC10100"
+	fire_only_once = yes
+	trigger = {
+		tag = RUS
+		year = 1855
+		month = 3
+	}
+ 
+	mean_time_to_happen =  {
+		days = 30
+	}
+
+
+	option = {
+		name = "EVTOPTA10100"
+		tech_school = "rus_aleksandr_the_second_tech_school"
+	}
+}
+#Aleksandr 3
+country_event = {
+	#Aleksandr 3
+	id = 10200
+	title = "EVTNAME10200"
+	desc = "EVTDESC10200"
+	fire_only_once = yes
+	trigger = {
+		tag = RUS
+		year = 1881
+		month = 2
+	}
+ 
+	mean_time_to_happen =  {
+		days = 15
+	}
+
+
+	option = {
+		name = "EVTOPTA10200"
+		tech_school = "rus_aleksandr_the_third_tech_school"
+	}
+}
+#Nikolay 2
+country_event = {
+	#Nikolay 2
+	id = 10300
+	title = "EVTNAME10300"
+	desc = "EVTDESC10300"
+	fire_only_once = yes
+	trigger = {
+		tag = RUS
+		year = 1894
+		month = 4
+	}
+ 
+	mean_time_to_happen =  {
+		days = 30
+	}
+
+
+	option = {
+		name = "EVTOPTA10300"
+		tech_school = "rus_nikolay_the_second_tech_school"
+	}
+}
